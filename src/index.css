@@ -5,4 +5,24 @@
 body {
   background: #1f1f38;
   font-family: 'lato', sans-serif;
+  background-image: url(../src/assets/bg-texture.png);
 }
+
+.me {
+  background: linear-gradient(#4db5ff, transparent);
+  width: 22rem;
+  height: 28rem;
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.about_card {
+  @apply bg-[#2c2c6c] border border-transparent rounded-lg px-8 py-4 text-center flex flex-col justify-center items-center gap-2 hover:bg-[#1f1f38] hover:border hover:border-blue-500 transition-all duration-300 ease-in-out;
+}
+
+.experience_details {
+  @apply bg-[#2c2c6c] border border-transparent rounded-lg px-20 py-8 md:py-12 gap-2 hover:bg-[#1f1f38] hover:border hover:border-blue-500 transition-all duration-300 ease-in-out;
+}
+

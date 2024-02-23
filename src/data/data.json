@@ -1,0 +1,20 @@
+{
+  "front": [
+    "HTML/CSS",
+    "React",
+    "Next.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Wagtail"
+  ],
+  "back": [
+    "Python",
+    "Django",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "PHP"
+  ]
+}
