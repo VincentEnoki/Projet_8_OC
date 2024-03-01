@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Find My Truck",
+        "description": "Projet permettant de localiser des foodtrucks à proximité de soi",
+        "technologies": "ReactJs, Symfony, API Google Maps",
+        "link": "https://github.com/VincentBGojo/FindMyTruck",
+        "image": "findmytruck.png",
+        "problems": "Problème de connexion à l'API Google Maps, responsive et la connexion avec le backend étant donné que je m'occupais de la partie front-end exclusivement sur ce projet"
+    },
+    {
+        "name": "Portfolio",
+        "description": "Projet de portfolio personnel",
+        "technologies": "ReactJs, tailwindcss, EmailJs",
+        "link": "https://github.com/VincentEnoki/Projet_8_OC",
+        "image": "portfolio.png",
+        "problems": "Difficulté avec le responsive et la mise en place de la partie mail, utilisation des documentations pour résoudre"
+    },
+    {
+        "name": "Project 3 OC de Sophie Bluel",
+        "description": "Projet d'apprentissage de javascript (formulaire, événements, DOM, etc)",
+        "technologies": "HTML, CSS, Javascript",
+        "link": "https://github.com/VincentEnoki/projet_3_OC",
+        "image": "projet_3.png",
+        "problems": "Gestion de certains évènements et de la mise en forme, tutoriel youtube et documentations pour résoudre"
+    },
+    {
+        "name:": "Clone de Netflix",
+        "description": "Projet de clone de Netflix non dynamique",
+        "technologies": "ReactJs",
+        "link": "https://github.com/VincentBGojo/Netflix_Clone_NotDynamic",
+        "image": "netflix.png",
+        "problems": "Essentiellement le CSS, documentation flex et css mdn pour résoudre"
+    },
+    {
+        "name": "Pirate Game",
+        "description": "Version pirate du Trex game de Google",
+        "technologies": "HTML, CSS, Javascript",
+        "link": "https://github.com/VincentBGojo/PirateGame",
+        "image": "pirate.png",
+        "problems": "La gestion du canvas et des évènements, tutoriel youtube pour résoudre"
+    },
+    {
+        "name": "Mon vieux grimoire",
+        "description": "Projet OpenClassrooms de notation de livres",
+        "technologies": "Express, MongoDB",
+        "link": "https://github.com/VincentEnoki/Projet_7_OC",
+        "image": "grimoire.png",
+        "problems": "La création des routes API, gestion de la sécurité, transmission des bonnes données, ChatGPT et documentations pour résoudre"
+    }
+]

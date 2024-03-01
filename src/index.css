@@ -23,6 +23,10 @@ body {
 }
 
 .experience_details {
-  @apply bg-[#2c2c6c] border border-transparent rounded-lg px-20 py-8 md:py-12 gap-2 hover:bg-[#1f1f38] hover:border hover:border-blue-500 transition-all duration-300 ease-in-out;
+  @apply bg-[#2c2c6c] border border-transparent rounded-lg px-20 py-8 md:py-12 hover:bg-transparent hover:border hover:border-blue-500 transition-all duration-300 ease-in-out;
 }
+.project_detail {
+  @apply bg-[#2c2c6c] border border-transparent rounded-lg px-4 py-4 md:py-8  hover:bg-transparent hover:border hover:border-blue-500 transition-all duration-300 ease-in-out;
+}
+
 
