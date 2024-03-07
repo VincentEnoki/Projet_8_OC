@@ -39,7 +39,8 @@ function About() {
             </div>
             <p className="mt-8 text-gray-400 text-xl text-center sm:text-left">
               Salut ! Je suis un développeur web fullstack avec 3 ans
-              d&apos;expérience. Mes outils de prédilection sont React, Django,
+              d&apos;expérience, j&apos;ai suivi deux formations de développeur web chez O&apos;Clock et OpenClassrooms dont l&apos;une en alternance d&apos;un an.
+              Mes outils de prédilection sont React, Django,
               Next.js et JavaScript. J&apos;adore plonger dans mes projets et
               creuser toujours plus loin dans mes technologies favorites. Je
               suis toujours partant pour de nouveaux défis et projets variés.

@@ -7,7 +7,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
   return (
-    <nav className="hidden bg-black bg-opacity-20 inline-block px-4 md:px-6 py-2 z-20 fixed left-1/2 transform -translate-x-1/2 bottom-8 flex gap-2 rounded-full backdrop-blur-md">
+    <nav className="bg-black bg-opacity-20 inline-block px-4 md:px-6 py-2 z-20 fixed left-1/2 transform -translate-x-1/2 bottom-8 flex gap-2 rounded-full backdrop-blur-md">
       <a
         href="#"
         onClick={() => setActiveNav("#")}
