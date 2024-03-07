@@ -11,13 +11,13 @@ function About() {
       <div className="flex flex-col items-center gap-4">
         <p className="text-2xl text-gray-300">Ce qu&apos;il faut savoir</p>
         <p className="text-3xl text-blue-500 font-bold">Sur moi</p>
-        <div className="flex flex-col md:flex-row w-full gap-4 sm:gap-20 mt-4">
-          <div className="md:w-1/2">
+        <div className="flex flex-col lg:flex-row w-full gap-4 sm:gap-20 mt-4">
+          <div className="lg:w-1/2">
             <div className="aspect-w-1 aspect-h-1 rounded-2xl bg-gradient-to-tr from-transparent via-blue-500 to-transparent">
               <img className="rounded-3xl" src={HUNTER} alt="Hunter" />
             </div>
           </div>
-          <div className="md:w-1/2 flex flex-col">
+          <div className="lg:w-1/2 flex flex-col">
             <div className="flex flex-col sm:flex-row gap-4 w-full text-center">
               <article className="about_card :w-full">
                 <FaAward className="text-2xl text-blue-500" />

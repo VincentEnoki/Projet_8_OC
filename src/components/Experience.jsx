@@ -13,7 +13,7 @@ function Experience() {
           <p className="text-center text-2xl text-blue-500 mb-8">
             Développement Frontend
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {data.front.map((item, index) => (
               <Details key={index} title={item} />
             ))}
@@ -23,7 +23,7 @@ function Experience() {
           <p className="text-center text-2xl text-blue-500 mb-8">
             Développement Backend
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {data.back.map((item, index) => (
               <Details key={index} title={item} />
             ))}
