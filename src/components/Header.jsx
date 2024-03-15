@@ -13,9 +13,12 @@ function Header() {
         <button className="text-background text-lg bg-blue-500 px-8 py-4 rounded-md hover:bg-white hover:border-blue-500 transition duration-300 ease-in-out">
           Télécharger mon CV
         </button>
-        <button className="text-white text-lg border-blue-500 border px-8 py-4 rounded-md hover:bg-white hover:text-blue-500 hover:border-blue-500 transition duration-300 ease-in-out">
+        <a
+          href="#contact"
+          className="cursor-pointer text-white text-lg border-blue-500 border px-8 py-4 rounded-md hover:bg-white hover:text-blue-500 hover:border-blue-500 transition duration-300 ease-in-out"
+        >
           Me contacter
-        </button>
+        </a>
       </div>
       <img className="me mt-4" src={ME} alt="Vincent Bouchard" />
       <div className="flex flex-row gap-40 mt-4">
