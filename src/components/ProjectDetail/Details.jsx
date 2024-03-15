@@ -11,11 +11,9 @@ function ProjectDetail({ project }) {
       <p className="text-xl font-bold text-left">{project.name}</p>
       <p className="text-base text-gray-300 text-left">{project.description}</p>
       <p className="text-left text-gray-200 text-lg">{project.technologies}</p>
-      <button className="bg-blue-500 text-background px-8 py-3 rounded w-fit hover:bg-white ease-in-out transition duration-300">
-        <a href={project.link} target="_blank" rel="noreferrer">
+      <a href={project.link} target="_blank" rel="noreferrer" className="bg-blue-500 text-background px-8 py-3 rounded w-fit hover:bg-white ease-in-out transition duration-300">
           Voir le code du projet
-        </a>
-      </button>
+      </a>
       <p
         className={`flex flex-row justify-center items-center gap-1 cursor-pointer `}
         onClick={() => setIsOpen(!isOpen)}
